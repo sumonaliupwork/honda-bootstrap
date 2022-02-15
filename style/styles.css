@@ -1,0 +1,93 @@
+header{
+    background: #264653;
+    margin-bottom: 50px;
+}
+img {
+    width: 100%;
+}
+/* top menu styles */
+.topMenu ul li {
+    padding: 0px 10px;
+    font-size: 18px;
+    font-weight: 500; 
+}
+.topMenu ul li a{
+    color: white !important;
+}
+.topMenu ul li a:hover{
+    color: #E76F51 !important;
+}
+.btnLink {
+    font-size: 18px;
+    padding: 7px 20px;
+    background: #E76F51;
+    border: none;
+}
+.btnLink:hover{
+    background-color: #df6040;
+}
+
+/* top banner styles */
+.bikeTitle p {
+    font-size: 18px;
+}
+
+.bikeTitle h1 {
+    font-size: 45px;
+}
+ 
+
+ 
+
+ 
+.purBtn{
+    background: #E76F51;
+    font-size: 18px;
+    border: none;
+    color: white;
+}
+.purBtn:hover{
+    background: #df6040;
+    color: white;
+}
+
+/* future bike styles */
+.futureColor{
+    color: #E76F51;
+}
+.furBike{
+    filter: grayscale(100%);
+}
+
+/* latest news */
+.latImg {
+    border: 15px solid white; 
+}
+.latTitle h5 {font-size: 30px;}
+
+.latTitle p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* happy client */
+.color-orange{
+    color: #E76F51;
+}
+.cirImg {
+    width: 125px; 
+}
+.clientTitle {
+    width: 285px;
+    margin: auto;
+}
+ 
+
+/* media qurey */
+@media only screen and (max-width:688) {
+    .bikeImg img{
+        width: 350px;
+        height: 300px;
+    }
+    
+}
